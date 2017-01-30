@@ -5,7 +5,8 @@ Tasks for building static sites or prototyping in the browser.
 * JS concatenation and minification
 * Live reload using BrowserSync
 * Image compression, optimization, caching
-##Project structure
+
+##Directory structure
 ```
 ├── src/
 │   ├── sass/
