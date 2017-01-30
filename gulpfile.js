@@ -65,7 +65,7 @@ gulp.task('pugIndex', function() {
 gulp.task('pugIncludes', function() {
     return gulp.src(pugIncludesSrc)
         .pipe(pug())
-        .pipe(gulp.dest('includes'));
+        .pipe(gulp.dest('templates'));
 });
 
 gulp.task('pug', ['pugIndex', 'pugIncludes']);
